@@ -42,5 +42,8 @@
   .date-holder {
     text-align: left;
   }
+  .btn-warning {
+    margin-top: 5px;
+  }
 }
 
