@@ -1,0 +1,46 @@
+.container-fluid {
+  padding: 50px;
+}
+
+.info-holder {
+  width: 85% !important;
+  margin: 20px auto !important;
+}
+
+.left-info {
+  float: left;
+}
+
+.right-info {
+  float: right;
+}
+
+.date-holder {
+  text-align: right;
+  text-align: -webkit-right;
+}
+
+.date-holder input {
+  margin-right: 10px;
+}
+
+.date-holder p {
+  margin-right: 10px;
+  opacity: 0.7;
+}
+
+.btn-warning {
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-top: -3px;
+}
+
+@media only screen and (max-width: 767px) {
+  .date-holder input {
+    display: block;
+  }
+  .date-holder {
+    text-align: left;
+  }
+}
+

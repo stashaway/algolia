@@ -1,0 +1,14 @@
+.search-result {
+  text-align: center;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+  padding: 1em 0;
+  box-shadow: 2px 2px;
+  transition-property: transform;
+  transition-duration: .3s;
+}
+
+.search-result:active {
+  transform: scale(0.98);
+}

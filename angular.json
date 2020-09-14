@@ -24,7 +24,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/instantsearch.css/themes/algolia.css",
+              "src/styles.css",
+              "node_modules/ngx-smart-modal/ngx-smart-modal.css"
             ],
             "scripts": []
           },
