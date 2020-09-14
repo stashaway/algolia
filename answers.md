@@ -31,7 +31,7 @@ In order for Algolia to work, we need to take all of your data (your records) an
 
 I hope this answers your questions.
 
-Have a great day\
+Have a great day!\
 Sloan Tash
 
 ----------------------
@@ -48,7 +48,7 @@ Hello Matt!
 
 I'm so sorry hear about your experience with our new Dashboard. We're constantly working hard to give users the best experience possible. Maybe you and I could get on a call this week and go over some features of the new Dashboard? I'm confident we can find a great solution for you.
 
-Let me know what time works for you.
+Let me know what time works for you.\
 Sloan Tash
 
 ----------------------
@@ -73,10 +73,10 @@ The high level process is simple!
 1) Choose your platform
 2) Install the relevant toolset
 3) Index your data with Algolia
-4) Start searching!
+4) Use our drop in components to start searching!
 
 With Algolia, you can start searching in just a few minutes! We're here to help you every step of the way. Please let us know if you encounter any issues getting started.
 
-Always here to help,
+Always here to help,\
 Sloan Tash
 
