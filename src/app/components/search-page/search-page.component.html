@@ -5,8 +5,6 @@
       <div class="search-holder col-sm-8">
         <ais-search-box
           placeholder="Type a band name or location"
-          submitTitle="Submit title"
-          resetTitle="Reset title"
           [searchAsYouType]="true"
           [autofocus]="true"
         ></ais-search-box>
@@ -22,8 +20,8 @@
     <br>
     <ais-hits>
       <ng-template let-hits="hits" let-results="results">
-        <p *ngIf="results.query && results.query.length > 0 && hits.length>0; else noSearch" style="text-align: center;">Click any listing for more information</p>
-        <h5 *ngIf="hits.length===0" style="text-align: center;">Oh no! Looks like I can't find that. Try searching for something else or resetting the date filter.</h5>
+        <p *ngIf="results.query && results.query.length > 0 && hits.length > 0; else noSearch" style="text-align: center;">Click any listing for more information</p>
+        <h5 *ngIf="hits.length === 0" style="text-align: center;">Oh no! Looks like I can't find that. Try searching for something else or resetting the date filter.</h5>
         <div class="row" *ngIf="results.query && results.query.length > 0">
           <div class="col-md-4 col-sm-6 col-12" *ngFor="let hit of hits" (click)="onClick(hit.name)">
             <app-search-result [concert]="hit"></app-search-result>
