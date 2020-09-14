@@ -1,28 +1,9 @@
 # AlgoliaTakehome
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
+This project is a demonstration of Algolia InstantSearch using Angular 9.
 
-## Development server
+I used a provided dataset of concert info. The dataset included 3 data points- Band name, Location of the show, and the date. I wanted to let the user access all of that data any way they liked, so I used a full text, autocompleting search widget for the name and location and an optional filter to limit the results by date as well.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+I also used a second API called TheAudioDB to grab some information about each band, which is displayed if the user clicks on any result. Not every band had data in that API, but many do, and when available, I grabbed their bio as well as a banner graphic (with a fallback to a logo) and their genre and formation year information.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-"# algolia" 
+I enjoyed this exercise, and thought the documentation of the Algolia InstantSearch product was very well done. The angular drop-ins worked very well.
